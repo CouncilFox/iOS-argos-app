@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_argos_splash" translatesAutoresizingMaskIntoConstraints="NO" id="sc4-o7-4kJ">
+                                <rect key="frame" x="70" y="70" width="235" height="527"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_texture_default" translatesAutoresizingMaskIntoConstraints="NO" id="zBf-aN-SlT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.1019607843" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="sc4-o7-4kJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3Pc-C5-r7J"/>
+                            <constraint firstItem="zBf-aN-SlT" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="6GS-vg-mCC"/>
+                            <constraint firstItem="zBf-aN-SlT" firstAttribute="centerY" secondItem="sc4-o7-4kJ" secondAttribute="centerY" id="8Q9-9k-HSu"/>
+                            <constraint firstItem="zBf-aN-SlT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="GNJ-Wd-Zi3"/>
+                            <constraint firstItem="sc4-o7-4kJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="70" id="Nqs-vr-aYE"/>
+                            <constraint firstItem="sc4-o7-4kJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="R1Y-Kt-kQZ"/>
+                            <constraint firstItem="zBf-aN-SlT" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="X8O-Qi-prf"/>
+                            <constraint firstAttribute="trailing" secondItem="sc4-o7-4kJ" secondAttribute="trailing" constant="70" id="bdx-ny-ETG"/>
+                            <constraint firstAttribute="bottom" secondItem="sc4-o7-4kJ" secondAttribute="bottom" constant="70" id="stn-8e-Oqm"/>
+                            <constraint firstItem="sc4-o7-4kJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="70" id="uU1-l7-Bei"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.5" y="516.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_texture_default" width="1279" height="623"/>
+        <image name="ic_argos_splash" width="1500" height="1500"/>
+    </resources>
+</document>

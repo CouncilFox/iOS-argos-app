@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuxDialogOptionUIView">
+            <connections>
+                <outlet property="auxDialogView" destination="iN0-l3-epB" id="ah5-k2-0FA"/>
+                <outlet property="btnClose" destination="7pN-6V-SaJ" id="ldE-2g-it5"/>
+                <outlet property="btnDevMode" destination="3Kv-ch-CHP" id="yFo-jL-YLW"/>
+                <outlet property="btnFlipMode" destination="1jY-Ft-UpW" id="Bei-nY-sM5"/>
+                <outlet property="labelDevMode" destination="FXe-b5-WqH" id="UwV-7O-wGE"/>
+                <outlet property="labelFlipMode" destination="4X7-Fd-JdV" id="niy-Ki-r1c"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jY-Ft-UpW">
+                    <rect key="frame" x="1224" y="472" width="80" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="NTP-bk-du7"/>
+                        <constraint firstAttribute="height" constant="80" id="uiv-eU-mZE"/>
+                    </constraints>
+                    <state key="normal" image="ic_drone_flip_aux"/>
+                    <connections>
+                        <action selector="btnFlipModeClicked:" destination="-1" eventType="touchUpInside" id="v7K-4q-9vP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kv-ch-CHP">
+                    <rect key="frame" x="62" y="472" width="80" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="QzS-CC-teY"/>
+                        <constraint firstAttribute="width" constant="80" id="u4S-Ln-0hI"/>
+                    </constraints>
+                    <state key="normal" image="ic_developer_mode_aux"/>
+                    <connections>
+                        <action selector="btnDevModeClicked:" destination="-1" eventType="touchUpInside" id="0Ci-kj-9Ta"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flip Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4X7-Fd-JdV">
+                    <rect key="frame" x="1230" y="574" width="68.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developer Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXe-b5-WqH">
+                    <rect key="frame" x="44.5" y="574" width="115" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-6V-SaJ">
+                    <rect key="frame" x="654.5" y="547" width="57" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2Oi-qC-M4D"/>
+                        <constraint firstAttribute="width" constant="57" id="5we-50-HWH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="DONE">
+                        <color key="titleColor" red="0.82352941180000006" green="0.066666666669999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="closeAuxDialog:" destination="-1" eventType="touchUpInside" id="LoF-CK-VdI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3Kv-ch-CHP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="62" id="05W-WM-NbB"/>
+                <constraint firstItem="4X7-Fd-JdV" firstAttribute="top" secondItem="1jY-Ft-UpW" secondAttribute="bottom" constant="22" id="2ps-94-VYy"/>
+                <constraint firstItem="4X7-Fd-JdV" firstAttribute="centerX" secondItem="1jY-Ft-UpW" secondAttribute="centerX" id="GmL-fk-DYy"/>
+                <constraint firstAttribute="trailing" secondItem="1jY-Ft-UpW" secondAttribute="trailing" constant="62" id="RmR-F9-Qsp"/>
+                <constraint firstItem="1jY-Ft-UpW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XaC-xZ-vI7"/>
+                <constraint firstItem="FXe-b5-WqH" firstAttribute="top" secondItem="3Kv-ch-CHP" secondAttribute="bottom" constant="22" id="dib-FQ-jy7"/>
+                <constraint firstItem="7pN-6V-SaJ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="50" id="qG2-RX-lTC"/>
+                <constraint firstItem="7pN-6V-SaJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ri4-4b-kcP"/>
+                <constraint firstItem="FXe-b5-WqH" firstAttribute="centerX" secondItem="3Kv-ch-CHP" secondAttribute="centerX" id="sai-f2-nNi"/>
+                <constraint firstItem="3Kv-ch-CHP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="w0a-tV-dgV"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="124.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_developer_mode_aux" width="57" height="45"/>
+        <image name="ic_drone_flip_aux" width="57" height="57"/>
+    </resources>
+</document>

@@ -1,0 +1,1493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0243F620EB86C0004FE347 /* CustomProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0243F520EB86C0004FE347 /* CustomProgressView.m */; };
+		0F0A0EBA1E24B8FA00711A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0A0EB81E24B8FA00711A48 /* Main.storyboard */; };
+		0F0DFF121DAB6463003154D0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DFF111DAB6462003154D0 /* File.swift */; };
+		0F106B0C21E31B8C00CECADB /* libLW93Control.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7693BC2165F28B006AE025 /* libLW93Control.a */; };
+		0F20A1EA21109F4D00F4AA6C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F20A1E921109F4D00F4AA6C /* User.m */; };
+		0F232DD2220AD65800244F5A /* FirmwareDownloadDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F232DD1220AD65800244F5A /* FirmwareDownloadDialogView.m */; };
+		0F232DD6220AD6C100244F5A /* FirmwareDownloadDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F232DD5220AD6C100244F5A /* FirmwareDownloadDialog.xib */; };
+		0F25E758210336A00096B0A6 /* AuxOptionDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F25E757210336A00096B0A6 /* AuxOptionDialog.xib */; };
+		0F25E75B210339D90096B0A6 /* AuxDialogOptionUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F25E75A210339D90096B0A6 /* AuxDialogOptionUIView.m */; };
+		0F26F3801E16358C0005C7B4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F26F37F1E16358C0005C7B4 /* CoreMotion.framework */; };
+		0F32214C1EF14A3300182BF0 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F32214B1EF14A3300182BF0 /* Util.m */; };
+		0F32214E1EF16F8600182BF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F32214D1EF16F8600182BF0 /* SystemConfiguration.framework */; };
+		0F3D8F8A1F4B31A500066AFA /* BlockObjectList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D8F891F4B31A500066AFA /* BlockObjectList.m */; };
+		0F3EA99521269E1B00A8C303 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3EA99421269E1B00A8C303 /* CoreLocation.framework */; };
+		0F4942DC22C73EA800E60287 /* Config.h in Sources */ = {isa = PBXBuildFile; fileRef = 0FD534851D8827E400041277 /* Config.h */; };
+		0F4A2F401D77F96100E5903D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A2F3F1D77F96100E5903D /* main.m */; };
+		0F4A2F431D77F96100E5903D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A2F421D77F96100E5903D /* AppDelegate.m */; };
+		0F4A2F461D77F96100E5903D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A2F451D77F96100E5903D /* ViewController.m */; };
+		0F4A2F4B1D77F96100E5903D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F4A2F4A1D77F96100E5903D /* Assets.xcassets */; };
+		0F4A2F4E1D77F96100E5903D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4A2F4C1D77F96100E5903D /* LaunchScreen.storyboard */; };
+		0F5B85991D86D420003EF133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B85981D86D420003EF133 /* CoreGraphics.framework */; };
+		0F5B859B1D86D447003EF133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B859A1D86D447003EF133 /* Foundation.framework */; };
+		0F5B859D1D86D453003EF133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B859C1D86D453003EF133 /* UIKit.framework */; };
+		0F5B859F1D86D45C003EF133 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B859E1D86D45C003EF133 /* SpriteKit.framework */; };
+		0F6352681F00F755003C8398 /* PIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6352671F00F755003C8398 /* PIDController.m */; };
+		0F69F58A21537EFF00CBADEA /* FirmwareProgressDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F69F58921537EFF00CBADEA /* FirmwareProgressDialog.xib */; };
+		0F69F59021539E9800CBADEA /* FirmwareProgressDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F69F58F21539E9800CBADEA /* FirmwareProgressDialogView.m */; };
+		0F766DF0211318BD0036E403 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F766DEF211318BD0036E403 /* LoginViewController.m */; };
+		0F7693B62165ED9E006AE025 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7693B52165ED9E006AE025 /* libz.1.2.5.tbd */; };
+		0F7693B82165EDAC006AE025 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7693B72165EDAC006AE025 /* libiconv.2.4.0.tbd */; };
+		0F7693BA2165EDBC006AE025 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7693B92165EDBC006AE025 /* libbz2.1.0.tbd */; };
+		0F7CB4E221218F3A00CE3CB3 /* LeftJoystickScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CB4E121218F3A00CE3CB3 /* LeftJoystickScene.m */; };
+		0F7CB4E52121A67300CE3CB3 /* RightJoystickScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CB4E42121A67300CE3CB3 /* RightJoystickScene.m */; };
+		0F7F62FE21AFC7D5007DCFD1 /* RecoverPwdDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F62FD21AFC7D5007DCFD1 /* RecoverPwdDialog.xib */; };
+		0F7F630121AFCAA6007DCFD1 /* RecoverPwdDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F630021AFCAA6007DCFD1 /* RecoverPwdDialogView.m */; };
+		0F8310E61D78566500D5E5E5 /* MultiWi230.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8310E51D78566500D5E5E5 /* MultiWi230.m */; };
+		0F84A72620F5D20000BD423A /* MagCalibrationDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F84A72520F5D20000BD423A /* MagCalibrationDialogView.xib */; };
+		0F84A72920F5E41D00BD423A /* MagCalibrationDialogUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A72820F5E41D00BD423A /* MagCalibrationDialogUIView.m */; };
+		0F87876C1DA8C803007A0212 /* Graphs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F87876B1DA8C803007A0212 /* Graphs.storyboard */; };
+		0F87876F1DA8C81B007A0212 /* GraphsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F87876E1DA8C81B007A0212 /* GraphsController.m */; };
+		0F8787DE1DA8FEA2007A0212 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8787DD1DA8FEA2007A0212 /* QuartzCore.framework */; };
+		0F8B023C2149261F00BFDD0E /* FirmwareFlasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B023B2149261F00BFDD0E /* FirmwareFlasher.m */; };
+		0F90F1F2210F2730007F8D1B /* EditProfileDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F90F1F1210F2730007F8D1B /* EditProfileDialogView.xib */; };
+		0F90F1F5210F2DA7007F8D1B /* EditProfileDialogUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F90F1F4210F2DA7007F8D1B /* EditProfileDialogUIView.m */; };
+		0F91AC5C1DB3A418000E9879 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F91AC5B1DB3A418000E9879 /* Config.m */; };
+		0F91AC5D1DB3AC0A000E9879 /* AcceleroController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8727A11DAD17BE00D124EB /* AcceleroController.m */; };
+		0F91AC5E1DB3AC0E000E9879 /* GyroController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8727A41DAD17CD00D124EB /* GyroController.m */; };
+		0F91AC5F1DB3AC15000E9879 /* MagnetoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8727A71DAD17DC00D124EB /* MagnetoController.m */; };
+		0F91AC601DB3AC1A000E9879 /* BaroController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8727AA1DAD17E700D124EB /* BaroController.m */; };
+		0F9345E420A9CDED004D1AF0 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9345E320A9CDED004D1AF0 /* CustomSlider.m */; };
+		0F93F3F81E26376B00438CEA /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F93F3E51E26376B00438CEA /* bullet.png */; };
+		0F93F3F91E26376B00438CEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F93F3E61E26376B00438CEA /* InfoPlist.strings */; };
+		0F93F3FB1E26376B00438CEA /* inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F93F3E91E26376B00438CEA /* inner.png */; };
+		0F93F3FE1E26376B00438CEA /* KAZ_DynamicControllerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F93F3EF1E26376B00438CEA /* KAZ_DynamicControllerScene.m */; };
+		0F93F3FF1E26376B00438CEA /* KAZ_FixedControllerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F93F3F11E26376B00438CEA /* KAZ_FixedControllerScene.m */; };
+		0F93F4001E26376B00438CEA /* KAZ_JoystickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F93F3F31E26376B00438CEA /* KAZ_JoystickNode.m */; };
+		0F9A6D4A2111927D008783F7 /* UserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A6D492111927D008783F7 /* UserSettings.m */; };
+		0F9A6D4D21119AD0008783F7 /* PlutoWifi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A6D4C21119AD0008783F7 /* PlutoWifi.m */; };
+		0F9A6D5021119B36008783F7 /* Gaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A6D4F21119B36008783F7 /* Gaming.m */; };
+		0F9A6D5321119D0E008783F7 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A6D5221119D0E008783F7 /* GameController.m */; };
+		0F9B0CCF1F4B012E000CCE38 /* HexParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B0CCE1F4B012E000CCE38 /* HexParser.m */; };
+		0FA7D6BA20ADAE1E00458B67 /* AppSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7D6B920ADAE1E00458B67 /* AppSettingsController.m */; };
+		0FAA387720E11D6E00C2ACAD /* ic_slash_pluto_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FAA387620E11D6E00C2ACAD /* ic_slash_pluto_logo.png */; };
+		0FAE52C320AEAAFF00368FC9 /* DevSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE52C220AEAAFF00368FC9 /* DevSettingsController.m */; };
+		0FAE677022C773E100988394 /* FirmwareFlasher.h in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B023A2149261F00BFDD0E /* FirmwareFlasher.h */; };
+		0FB4A654211EFC2C003DA130 /* error_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4A652211EFC2C003DA130 /* error_sound.wav */; };
+		0FB4A655211EFC2C003DA130 /* success_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4A653211EFC2C003DA130 /* success_sound.wav */; };
+		0FB4A657211EFC5B003DA130 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB4A656211EFC5B003DA130 /* AVFoundation.framework */; };
+		0FBCBBCA1DBF4C8A001ABD48 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCBBB01DBF4C8A001ABD48 /* AccelerometerFilter.m */; };
+		0FBCBBCB1DBF4C8A001ABD48 /* AceeloGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCBBB21DBF4C8A001ABD48 /* AceeloGraphView.m */; };
+		0FBCBBCD1DBF4C8A001ABD48 /* BaroGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCBBB61DBF4C8A001ABD48 /* BaroGraphView.m */; };
+		0FBCBBCE1DBF4C8A001ABD48 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCBBB71DBF4C8A001ABD48 /* Localizable.strings */; };
+		0FBCBBD11DBF4C8A001ABD48 /* GyroGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCBBBE1DBF4C8A001ABD48 /* GyroGraphView.m */; };
+		0FBCBBD21DBF4C8A001ABD48 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCBBC01DBF4C8A001ABD48 /* Default-568h@2x.png */; };
+		0FBCBBD31DBF4C8A001ABD48 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCBBC11DBF4C8A001ABD48 /* Default.png */; };
+		0FBCBBD41DBF4C8A001ABD48 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCBBC21DBF4C8A001ABD48 /* Default@2x.png */; };
+		0FBCBBD61DBF4C8A001ABD48 /* MagnetoGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCBBC51DBF4C8A001ABD48 /* MagnetoGraphView.m */; };
+		0FBCBBDC1DBF5085001ABD48 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCBBDB1DBF5085001ABD48 /* UIView+Toast.m */; };
+		0FBCBC1E1DBF509B001ABD48 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCBC031DBF509B001ABD48 /* MBProgressHUD.m */; };
+		0FBCBC531DBF61C7001ABD48 /* WiFiCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFF2AFC1D7867DC00CEB132 /* WiFiCommunication.m */; };
+		0FBCBC631DBF65C5001ABD48 /* joystick_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCBC611DBF65C5001ABD48 /* joystick_base.png */; };
+		0FBCBC641DBF65C5001ABD48 /* joystick_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCBC621DBF65C5001ABD48 /* joystick_top.png */; };
+		0FBCBC681DBF65DC001ABD48 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCBC671DBF65DC001ABD48 /* settings.png */; };
+		0FC28D3520A05E98009CD101 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC28D3420A05E98009CD101 /* TabBarController.m */; };
+		0FC9ECFE21AE90E600BCEE16 /* ChangePwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9ECFD21AE90E600BCEE16 /* ChangePwdController.m */; };
+		0FD534821D87FEF900041277 /* RCSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD534811D87FEF900041277 /* RCSignals.m */; };
+		0FEEFD1020EB5721000E129F /* AccCalibrationDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FEEFD0F20EB5721000E129F /* AccCalibrationDialogView.xib */; };
+		0FEEFD1320EB5D67000E129F /* AccCalibrationDialogUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEFD1220EB5D67000E129F /* AccCalibrationDialogUIView.m */; };
+		0FF1269D20A17FBB00874A49 /* DroneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1269C20A17FBB00874A49 /* DroneViewController.m */; };
+		0FF126A020A195CE00874A49 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1269F20A195CE00874A49 /* SettingsViewController.m */; };
+		0FF126A320A1EAA700874A49 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF126A220A1EAA700874A49 /* ControlsViewController.m */; };
+		0FF126A620A1EC7C00874A49 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF126A520A1EC7C00874A49 /* ProfileViewController.m */; };
+		0FF3461621E31F1A00829BAB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF3461521E31F1A00829BAB /* AssetsLibrary.framework */; };
+		0FF7175121A6D64600014917 /* ChangeWifiController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7175021A6D64600014917 /* ChangeWifiController.m */; };
+		0FFEA9AE1DA26D0E00BA14B8 /* FirmwareFlasherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA9AD1DA26D0E00BA14B8 /* FirmwareFlasherController.m */; };
+		0FFFC4DB1F13AFC700814669 /* flight_time_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFFC4DA1F13AFC700814669 /* flight_time_icon.png */; };
+		360BEF702A867A1600B00C2E /* ic_argos_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 360BEF6F2A867A1600B00C2E /* ic_argos_splash.png */; };
+		36F43C322A86377A00585CCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36F43C312A86377A00585CCF /* GoogleService-Info.plist */; };
+		99026ECF73883FD3FE9C274E /* libPods-PlutoControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 618FFE004D59D02197FBFDB6 /* libPods-PlutoControllerTests.a */; };
+		E133BCF868319C6417786035 /* libPods-PlutoController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791688C1F37F8431237EF6EF /* libPods-PlutoController.a */; };
+		F753B899C6B91DDB8850C6C2 /* libPods-PlutoControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 468DF6609726FFD90476A137 /* libPods-PlutoControllerUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F4A2F551D77F96100E5903D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F4A2F331D77F96100E5903D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F4A2F3A1D77F96100E5903D;
+			remoteInfo = PlutoController;
+		};
+		0F4A2F601D77F96100E5903D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F4A2F331D77F96100E5903D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F4A2F3A1D77F96100E5903D;
+			remoteInfo = PlutoController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F228053214262B400236D11 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8787841DA8CB9D007A0212 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F0243F420EB86C0004FE347 /* CustomProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomProgressView.h; sourceTree = "<group>"; };
+		0F0243F520EB86C0004FE347 /* CustomProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomProgressView.m; sourceTree = "<group>"; };
+		0F0A0EB91E24B8FA00711A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F0DFF101DAB6462003154D0 /* PlutoController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlutoController-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F0DFF111DAB6462003154D0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0F20A1E821109F4D00F4AA6C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0F20A1E921109F4D00F4AA6C /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0F232DD0220AD65800244F5A /* FirmwareDownloadDialogView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirmwareDownloadDialogView.h; sourceTree = "<group>"; };
+		0F232DD1220AD65800244F5A /* FirmwareDownloadDialogView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirmwareDownloadDialogView.m; sourceTree = "<group>"; };
+		0F232DD5220AD6C100244F5A /* FirmwareDownloadDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirmwareDownloadDialog.xib; sourceTree = "<group>"; };
+		0F25E757210336A00096B0A6 /* AuxOptionDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuxOptionDialog.xib; sourceTree = "<group>"; };
+		0F25E759210339D90096B0A6 /* AuxDialogOptionUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuxDialogOptionUIView.h; sourceTree = "<group>"; };
+		0F25E75A210339D90096B0A6 /* AuxDialogOptionUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuxDialogOptionUIView.m; sourceTree = "<group>"; };
+		0F26F37F1E16358C0005C7B4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0F32214A1EF14A1800182BF0 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		0F32214B1EF14A3300182BF0 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		0F32214D1EF16F8600182BF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0F3D8F881F4B318500066AFA /* BlockObjectList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockObjectList.h; sourceTree = "<group>"; };
+		0F3D8F891F4B31A500066AFA /* BlockObjectList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockObjectList.m; sourceTree = "<group>"; };
+		0F3EA99421269E1B00A8C303 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0F4A2F3B1D77F96100E5903D /* Argos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Argos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4A2F3F1D77F96100E5903D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F4A2F411D77F96100E5903D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F4A2F421D77F96100E5903D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F4A2F441D77F96100E5903D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		0F4A2F451D77F96100E5903D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		0F4A2F4A1D77F96100E5903D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F4A2F4D1D77F96100E5903D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F4A2F4F1D77F96100E5903D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4A2F541D77F96100E5903D /* ArgosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4A2F5F1D77F96100E5903D /* ArgosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5AA8421F1914F20081A0DE /* PlutoController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlutoController.entitlements; sourceTree = "<group>"; };
+		0F5B85981D86D420003EF133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F5B859A1D86D447003EF133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F5B859C1D86D453003EF133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F5B859E1D86D45C003EF133 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0F6352661F00F755003C8398 /* PIDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDController.h; sourceTree = "<group>"; };
+		0F6352671F00F755003C8398 /* PIDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDController.m; sourceTree = "<group>"; };
+		0F69F58921537EFF00CBADEA /* FirmwareProgressDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirmwareProgressDialog.xib; sourceTree = "<group>"; };
+		0F69F58E21539E9800CBADEA /* FirmwareProgressDialogView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirmwareProgressDialogView.h; sourceTree = "<group>"; };
+		0F69F58F21539E9800CBADEA /* FirmwareProgressDialogView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirmwareProgressDialogView.m; sourceTree = "<group>"; };
+		0F6DD81C2142A4B70032A6FE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		0F708B40CB86ED330898638C /* Pods-PlutoController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlutoController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlutoController/Pods-PlutoController.debug.xcconfig"; sourceTree = "<group>"; };
+		0F766DEE211318BD0036E403 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0F766DEF211318BD0036E403 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0F7693B52165ED9E006AE025 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		0F7693B72165EDAC006AE025 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		0F7693B92165EDBC006AE025 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		0F7693BC2165F28B006AE025 /* libLW93Control.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLW93Control.a; sourceTree = "<group>"; };
+		0F7693BE21660E19006AE025 /* LWManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWManage.h; sourceTree = "<group>"; };
+		0F7693BF21660E19006AE025 /* LWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCommon.h; sourceTree = "<group>"; };
+		0F7CB4E021218F3A00CE3CB3 /* LeftJoystickScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftJoystickScene.h; sourceTree = "<group>"; };
+		0F7CB4E121218F3A00CE3CB3 /* LeftJoystickScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftJoystickScene.m; sourceTree = "<group>"; };
+		0F7CB4E32121A67300CE3CB3 /* RightJoystickScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightJoystickScene.h; sourceTree = "<group>"; };
+		0F7CB4E42121A67300CE3CB3 /* RightJoystickScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightJoystickScene.m; sourceTree = "<group>"; };
+		0F7F62FD21AFC7D5007DCFD1 /* RecoverPwdDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecoverPwdDialog.xib; sourceTree = "<group>"; };
+		0F7F62FF21AFCAA6007DCFD1 /* RecoverPwdDialogView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecoverPwdDialogView.h; sourceTree = "<group>"; };
+		0F7F630021AFCAA6007DCFD1 /* RecoverPwdDialogView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecoverPwdDialogView.m; sourceTree = "<group>"; };
+		0F8310E51D78566500D5E5E5 /* MultiWi230.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiWi230.m; sourceTree = "<group>"; };
+		0F84A72520F5D20000BD423A /* MagCalibrationDialogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MagCalibrationDialogView.xib; sourceTree = "<group>"; };
+		0F84A72720F5E41D00BD423A /* MagCalibrationDialogUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagCalibrationDialogUIView.h; sourceTree = "<group>"; };
+		0F84A72820F5E41D00BD423A /* MagCalibrationDialogUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagCalibrationDialogUIView.m; sourceTree = "<group>"; };
+		0F8727A01DAD17BE00D124EB /* AcceleroController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceleroController.h; sourceTree = "<group>"; };
+		0F8727A11DAD17BE00D124EB /* AcceleroController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceleroController.m; sourceTree = "<group>"; };
+		0F8727A31DAD17CD00D124EB /* GyroController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroController.h; sourceTree = "<group>"; };
+		0F8727A41DAD17CD00D124EB /* GyroController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroController.m; sourceTree = "<group>"; };
+		0F8727A61DAD17DC00D124EB /* MagnetoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetoController.h; sourceTree = "<group>"; };
+		0F8727A71DAD17DC00D124EB /* MagnetoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnetoController.m; sourceTree = "<group>"; };
+		0F8727A91DAD17E700D124EB /* BaroController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaroController.h; sourceTree = "<group>"; };
+		0F8727AA1DAD17E700D124EB /* BaroController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaroController.m; sourceTree = "<group>"; };
+		0F87876B1DA8C803007A0212 /* Graphs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Graphs.storyboard; sourceTree = "<group>"; };
+		0F87876D1DA8C81B007A0212 /* GraphsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphsController.h; sourceTree = "<group>"; usesTabs = 1; };
+		0F87876E1DA8C81B007A0212 /* GraphsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphsController.m; sourceTree = "<group>"; };
+		0F8787DD1DA8FEA2007A0212 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F8B023A2149261F00BFDD0E /* FirmwareFlasher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirmwareFlasher.h; sourceTree = "<group>"; };
+		0F8B023B2149261F00BFDD0E /* FirmwareFlasher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirmwareFlasher.m; sourceTree = "<group>"; };
+		0F90F1F1210F2730007F8D1B /* EditProfileDialogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileDialogView.xib; sourceTree = "<group>"; };
+		0F90F1F3210F2DA7007F8D1B /* EditProfileDialogUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfileDialogUIView.h; sourceTree = "<group>"; };
+		0F90F1F4210F2DA7007F8D1B /* EditProfileDialogUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfileDialogUIView.m; sourceTree = "<group>"; };
+		0F91AC5B1DB3A418000E9879 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		0F9345E220A9CDED004D1AF0 /* CustomSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		0F9345E320A9CDED004D1AF0 /* CustomSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		0F93F3E51E26376B00438CEA /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		0F93F3E71E26376B00438CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F93F3E91E26376B00438CEA /* inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inner.png; sourceTree = "<group>"; };
+		0F93F3EB1E26376B00438CEA /* JoystickNode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JoystickNode-Prefix.pch"; sourceTree = "<group>"; };
+		0F93F3EE1E26376B00438CEA /* KAZ_DynamicControllerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAZ_DynamicControllerScene.h; sourceTree = "<group>"; };
+		0F93F3EF1E26376B00438CEA /* KAZ_DynamicControllerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAZ_DynamicControllerScene.m; sourceTree = "<group>"; };
+		0F93F3F01E26376B00438CEA /* KAZ_FixedControllerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAZ_FixedControllerScene.h; sourceTree = "<group>"; };
+		0F93F3F11E26376B00438CEA /* KAZ_FixedControllerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAZ_FixedControllerScene.m; sourceTree = "<group>"; };
+		0F93F3F21E26376B00438CEA /* KAZ_JoystickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAZ_JoystickNode.h; sourceTree = "<group>"; };
+		0F93F3F31E26376B00438CEA /* KAZ_JoystickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAZ_JoystickNode.m; sourceTree = "<group>"; };
+		0F9A6D482111927D008783F7 /* UserSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSettings.h; sourceTree = "<group>"; };
+		0F9A6D492111927D008783F7 /* UserSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSettings.m; sourceTree = "<group>"; };
+		0F9A6D4B21119AD0008783F7 /* PlutoWifi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlutoWifi.h; sourceTree = "<group>"; };
+		0F9A6D4C21119AD0008783F7 /* PlutoWifi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlutoWifi.m; sourceTree = "<group>"; };
+		0F9A6D4E21119B36008783F7 /* Gaming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gaming.h; sourceTree = "<group>"; };
+		0F9A6D4F21119B36008783F7 /* Gaming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gaming.m; sourceTree = "<group>"; };
+		0F9A6D5121119D0E008783F7 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		0F9A6D5221119D0E008783F7 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		0F9B0CCD1F4B00E2000CCE38 /* HexParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexParser.h; sourceTree = "<group>"; };
+		0F9B0CCE1F4B012E000CCE38 /* HexParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexParser.m; sourceTree = "<group>"; };
+		0FA7D6B820ADAE1E00458B67 /* AppSettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSettingsController.h; sourceTree = "<group>"; };
+		0FA7D6B920ADAE1E00458B67 /* AppSettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSettingsController.m; sourceTree = "<group>"; };
+		0FAA387620E11D6E00C2ACAD /* ic_slash_pluto_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_slash_pluto_logo.png; sourceTree = "<group>"; };
+		0FAE52C120AEAAFF00368FC9 /* DevSettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevSettingsController.h; sourceTree = "<group>"; };
+		0FAE52C220AEAAFF00368FC9 /* DevSettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevSettingsController.m; sourceTree = "<group>"; };
+		0FB4A64F211EE603003DA130 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0FB4A652211EFC2C003DA130 /* error_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error_sound.wav; sourceTree = "<group>"; };
+		0FB4A653211EFC2C003DA130 /* success_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success_sound.wav; sourceTree = "<group>"; };
+		0FB4A656211EFC5B003DA130 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0FBCBBAF1DBF4C8A001ABD48 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		0FBCBBB01DBF4C8A001ABD48 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		0FBCBBB11DBF4C8A001ABD48 /* AcceloGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceloGraphView.h; sourceTree = "<group>"; };
+		0FBCBBB21DBF4C8A001ABD48 /* AceeloGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AceeloGraphView.m; sourceTree = "<group>"; };
+		0FBCBBB51DBF4C8A001ABD48 /* BaroGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaroGraphView.h; sourceTree = "<group>"; };
+		0FBCBBB61DBF4C8A001ABD48 /* BaroGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaroGraphView.m; sourceTree = "<group>"; };
+		0FBCBBB81DBF4C8A001ABD48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0FBCBBBD1DBF4C8A001ABD48 /* GyroGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroGraphView.h; sourceTree = "<group>"; };
+		0FBCBBBE1DBF4C8A001ABD48 /* GyroGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroGraphView.m; sourceTree = "<group>"; };
+		0FBCBBC01DBF4C8A001ABD48 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0FBCBBC11DBF4C8A001ABD48 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0FBCBBC21DBF4C8A001ABD48 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0FBCBBC41DBF4C8A001ABD48 /* MagnetoGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetoGraphView.h; sourceTree = "<group>"; };
+		0FBCBBC51DBF4C8A001ABD48 /* MagnetoGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnetoGraphView.m; sourceTree = "<group>"; };
+		0FBCBBC71DBF4C8A001ABD48 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0FBCBBC81DBF4C8A001ABD48 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0FBCBBC91DBF4C8A001ABD48 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		0FBCBBDA1DBF5085001ABD48 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		0FBCBBDB1DBF5085001ABD48 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		0FBCBC011DBF509B001ABD48 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		0FBCBC021DBF509B001ABD48 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0FBCBC031DBF509B001ABD48 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0FBCBC521DBF50D6001ABD48 /* MultiWi230.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiWi230.h; sourceTree = "<group>"; usesTabs = 1; };
+		0FBCBC611DBF65C5001ABD48 /* joystick_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_base.png; sourceTree = "<group>"; };
+		0FBCBC621DBF65C5001ABD48 /* joystick_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_top.png; sourceTree = "<group>"; };
+		0FBCBC671DBF65DC001ABD48 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		0FC28D3420A05E98009CD101 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		0FC28D3620A05EB1009CD101 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		0FC9ECFC21AE90E600BCEE16 /* ChangePwdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePwdController.h; sourceTree = "<group>"; };
+		0FC9ECFD21AE90E600BCEE16 /* ChangePwdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePwdController.m; sourceTree = "<group>"; };
+		0FD534811D87FEF900041277 /* RCSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSignals.m; sourceTree = "<group>"; };
+		0FD534831D880B4400041277 /* RCSingnals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCSingnals.h; sourceTree = "<group>"; };
+		0FD534851D8827E400041277 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0FEEFD0F20EB5721000E129F /* AccCalibrationDialogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccCalibrationDialogView.xib; sourceTree = "<group>"; };
+		0FEEFD1120EB5D67000E129F /* AccCalibrationDialogUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccCalibrationDialogUIView.h; sourceTree = "<group>"; };
+		0FEEFD1220EB5D67000E129F /* AccCalibrationDialogUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccCalibrationDialogUIView.m; sourceTree = "<group>"; };
+		0FF1269C20A17FBB00874A49 /* DroneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneViewController.m; sourceTree = "<group>"; };
+		0FF1269E20A17FD900874A49 /* DroneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DroneViewController.h; sourceTree = "<group>"; };
+		0FF1269F20A195CE00874A49 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0FF126A120A195E200874A49 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0FF126A220A1EAA700874A49 /* ControlsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlsViewController.m; sourceTree = "<group>"; };
+		0FF126A420A1EB4100874A49 /* ControlsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlsViewController.h; sourceTree = "<group>"; };
+		0FF126A520A1EC7C00874A49 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		0FF126A720A1ECAA00874A49 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		0FF3461521E31F1A00829BAB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0FF7174F21A6D64600014917 /* ChangeWifiController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeWifiController.h; sourceTree = "<group>"; };
+		0FF7175021A6D64600014917 /* ChangeWifiController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeWifiController.m; sourceTree = "<group>"; };
+		0FFEA9AC1DA26D0E00BA14B8 /* FirmwareFlasherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmwareFlasherController.h; sourceTree = "<group>"; };
+		0FFEA9AD1DA26D0E00BA14B8 /* FirmwareFlasherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirmwareFlasherController.m; sourceTree = "<group>"; };
+		0FFF2AFB1D7863CD00CEB132 /* Communication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Communication.h; sourceTree = "<group>"; };
+		0FFF2AFC1D7867DC00CEB132 /* WiFiCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiCommunication.m; sourceTree = "<group>"; };
+		0FFFC4DA1F13AFC700814669 /* flight_time_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flight_time_icon.png; path = ../../flight_time_icon.png; sourceTree = "<group>"; };
+		2516B1998F4A4AEE66BFECB2 /* Pods-PlutoControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlutoControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlutoControllerUITests/Pods-PlutoControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34A5F7868C16E5F0B94FA2CA /* Pods-PlutoControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlutoControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlutoControllerTests/Pods-PlutoControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		360BEF6F2A867A1600B00C2E /* ic_argos_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_argos_splash.png; path = ../../../../../../Downloads/Argos_assets/ic_argos_splash.png; sourceTree = "<group>"; };
+		36F43C312A86377A00585CCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44D9797C284C2161EA3CEB72 /* libPods-PlutoController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PlutoController.a"; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/../../../../../../../../../Users/DronaAviation/Library/Developer/Xcode/DerivedData/PlutoController-cbbhoftzzdzajdhchfhvfddtviue/Build/Products/Debug-iphoneos/libPods-PlutoController.a"; sourceTree = "<absolute>"; };
+		468DF6609726FFD90476A137 /* libPods-PlutoControllerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlutoControllerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFA5E88B2C8E2C1DDD8E964 /* Pods-PlutoController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlutoController.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlutoController/Pods-PlutoController.release.xcconfig"; sourceTree = "<group>"; };
+		618FFE004D59D02197FBFDB6 /* libPods-PlutoControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlutoControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791688C1F37F8431237EF6EF /* libPods-PlutoController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlutoController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78FE8725478862F2FEFF4F8 /* Pods-PlutoControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlutoControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlutoControllerUITests/Pods-PlutoControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA22CC17EF614ABEA177A816 /* Pods-PlutoControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlutoControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlutoControllerTests/Pods-PlutoControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F4A2F381D77F96100E5903D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF3461621E31F1A00829BAB /* AssetsLibrary.framework in Frameworks */,
+				0F106B0C21E31B8C00CECADB /* libLW93Control.a in Frameworks */,
+				0F7693BA2165EDBC006AE025 /* libbz2.1.0.tbd in Frameworks */,
+				0F7693B82165EDAC006AE025 /* libiconv.2.4.0.tbd in Frameworks */,
+				0F7693B62165ED9E006AE025 /* libz.1.2.5.tbd in Frameworks */,
+				0F3EA99521269E1B00A8C303 /* CoreLocation.framework in Frameworks */,
+				0FB4A657211EFC5B003DA130 /* AVFoundation.framework in Frameworks */,
+				0F32214E1EF16F8600182BF0 /* SystemConfiguration.framework in Frameworks */,
+				0F26F3801E16358C0005C7B4 /* CoreMotion.framework in Frameworks */,
+				0F8787DE1DA8FEA2007A0212 /* QuartzCore.framework in Frameworks */,
+				0F5B859F1D86D45C003EF133 /* SpriteKit.framework in Frameworks */,
+				0F5B859D1D86D453003EF133 /* UIKit.framework in Frameworks */,
+				0F5B859B1D86D447003EF133 /* Foundation.framework in Frameworks */,
+				0F5B85991D86D420003EF133 /* CoreGraphics.framework in Frameworks */,
+				E133BCF868319C6417786035 /* libPods-PlutoController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4A2F511D77F96100E5903D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99026ECF73883FD3FE9C274E /* libPods-PlutoControllerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4A2F5C1D77F96100E5903D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F753B899C6B91DDB8850C6C2 /* libPods-PlutoControllerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F20A1E721109B8C00F4AA6C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0F20A1E821109F4D00F4AA6C /* User.h */,
+				0F20A1E921109F4D00F4AA6C /* User.m */,
+				0F9A6D482111927D008783F7 /* UserSettings.h */,
+				0F9A6D492111927D008783F7 /* UserSettings.m */,
+				0F9A6D4B21119AD0008783F7 /* PlutoWifi.h */,
+				0F9A6D4C21119AD0008783F7 /* PlutoWifi.m */,
+				0F9A6D4E21119B36008783F7 /* Gaming.h */,
+				0F9A6D4F21119B36008783F7 /* Gaming.m */,
+				0F9A6D5121119D0E008783F7 /* GameController.h */,
+				0F9A6D5221119D0E008783F7 /* GameController.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0F3221491EF149F900182BF0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0F32214A1EF14A1800182BF0 /* Util.h */,
+				0F32214B1EF14A3300182BF0 /* Util.m */,
+				0F9B0CCD1F4B00E2000CCE38 /* HexParser.h */,
+				0F9B0CCE1F4B012E000CCE38 /* HexParser.m */,
+				0F935CFD20D263E800FFED7F /* PlutoController */,
+				0F3D8F881F4B318500066AFA /* BlockObjectList.h */,
+				0F3D8F891F4B31A500066AFA /* BlockObjectList.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		0F3E22151D7A95D100F0E455 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F93F3E41E26376B00438CEA /* JoystickNode */,
+				0FBCBBDD1DBF509B001ABD48 /* MBProgressHUD-master */,
+				0F6076E81DA77B23001D4936 /* GraphView */,
+				0FBCBBD91DBF5085001ABD48 /* Toast */,
+				0F9345E320A9CDED004D1AF0 /* CustomSlider.m */,
+				0FEEFD0F20EB5721000E129F /* AccCalibrationDialogView.xib */,
+				0FEEFD1120EB5D67000E129F /* AccCalibrationDialogUIView.h */,
+				0FEEFD1220EB5D67000E129F /* AccCalibrationDialogUIView.m */,
+				0F0243F420EB86C0004FE347 /* CustomProgressView.h */,
+				0F0243F520EB86C0004FE347 /* CustomProgressView.m */,
+				0F84A72520F5D20000BD423A /* MagCalibrationDialogView.xib */,
+				0F84A72720F5E41D00BD423A /* MagCalibrationDialogUIView.h */,
+				0F84A72820F5E41D00BD423A /* MagCalibrationDialogUIView.m */,
+				0F25E757210336A00096B0A6 /* AuxOptionDialog.xib */,
+				0F25E759210339D90096B0A6 /* AuxDialogOptionUIView.h */,
+				0F25E75A210339D90096B0A6 /* AuxDialogOptionUIView.m */,
+				0F90F1F1210F2730007F8D1B /* EditProfileDialogView.xib */,
+				0F90F1F3210F2DA7007F8D1B /* EditProfileDialogUIView.h */,
+				0F90F1F4210F2DA7007F8D1B /* EditProfileDialogUIView.m */,
+				0F69F58921537EFF00CBADEA /* FirmwareProgressDialog.xib */,
+				0F69F58E21539E9800CBADEA /* FirmwareProgressDialogView.h */,
+				0F69F58F21539E9800CBADEA /* FirmwareProgressDialogView.m */,
+				0F7F62FD21AFC7D5007DCFD1 /* RecoverPwdDialog.xib */,
+				0F7F62FF21AFCAA6007DCFD1 /* RecoverPwdDialogView.h */,
+				0F7F630021AFCAA6007DCFD1 /* RecoverPwdDialogView.m */,
+				0F232DD0220AD65800244F5A /* FirmwareDownloadDialogView.h */,
+				0F232DD1220AD65800244F5A /* FirmwareDownloadDialogView.m */,
+				0F232DD5220AD6C100244F5A /* FirmwareDownloadDialog.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F4A2F321D77F96100E5903D = {
+			isa = PBXGroup;
+			children = (
+				0F5B85A01D87C351003EF133 /* Frameworks */,
+				0F4A2F3D1D77F96100E5903D /* PlutoController */,
+				0F4A2F3C1D77F96100E5903D /* Products */,
+				301A7B62A747F631531F32CB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0F4A2F3C1D77F96100E5903D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F4A2F3B1D77F96100E5903D /* Argos.app */,
+				0F4A2F541D77F96100E5903D /* ArgosTests.xctest */,
+				0F4A2F5F1D77F96100E5903D /* ArgosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F4A2F3D1D77F96100E5903D /* PlutoController */ = {
+			isa = PBXGroup;
+			children = (
+				0F7693BB2165F1A5006AE025 /* LeweiLib */,
+				0FB4A651211EF882003DA130 /* Sounds */,
+				0F20A1E721109B8C00F4AA6C /* Data */,
+				0F5AA8421F1914F20081A0DE /* PlutoController.entitlements */,
+				36F43C312A86377A00585CCF /* GoogleService-Info.plist */,
+				0F3221491EF149F900182BF0 /* Util */,
+				0FBCBC511DBF50D6001ABD48 /* DronaMSPKit */,
+				0F6076E71DA76D4D001D4936 /* Graphs */,
+				0FFEA98B1DA2303500BA14B8 /* Settings */,
+				0F9BB4DB1D9E372C00D376FD /* resources */,
+				0FD534841D8827D700041277 /* Config */,
+				0F5586811D82888C0058CB91 /* MainController */,
+				0F3E22151D7A95D100F0E455 /* View */,
+				0F8310E41D78562A00D5E5E5 /* Communication */,
+				0FFF2AFA1D78638200CEB132 /* DronaCommunicationKit */,
+				0F8310E31D78560900D5E5E5 /* Protocol */,
+				0F4A2F411D77F96100E5903D /* AppDelegate.h */,
+				0F4A2F421D77F96100E5903D /* AppDelegate.m */,
+				0F0A0EB81E24B8FA00711A48 /* Main.storyboard */,
+				0F4A2F4A1D77F96100E5903D /* Assets.xcassets */,
+				0F4A2F4C1D77F96100E5903D /* LaunchScreen.storyboard */,
+				0F4A2F4F1D77F96100E5903D /* Info.plist */,
+				0F4A2F3E1D77F96100E5903D /* Supporting Files */,
+				0F0DFF111DAB6462003154D0 /* File.swift */,
+				0F0DFF101DAB6462003154D0 /* PlutoController-Bridging-Header.h */,
+			);
+			path = PlutoController;
+			sourceTree = "<group>";
+		};
+		0F4A2F3E1D77F96100E5903D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F4A2F3F1D77F96100E5903D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F5586811D82888C0058CB91 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				0F4A2F441D77F96100E5903D /* ViewController.h */,
+				0F4A2F451D77F96100E5903D /* ViewController.m */,
+				0FD534811D87FEF900041277 /* RCSignals.m */,
+				0FD534831D880B4400041277 /* RCSingnals.h */,
+				0F766DEE211318BD0036E403 /* LoginViewController.h */,
+				0F766DEF211318BD0036E403 /* LoginViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		0F5B85A01D87C351003EF133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3461521E31F1A00829BAB /* AssetsLibrary.framework */,
+				0F7693B92165EDBC006AE025 /* libbz2.1.0.tbd */,
+				0F7693B72165EDAC006AE025 /* libiconv.2.4.0.tbd */,
+				0F7693B52165ED9E006AE025 /* libz.1.2.5.tbd */,
+				0F6DD81C2142A4B70032A6FE /* HealthKit.framework */,
+				0F3EA99421269E1B00A8C303 /* CoreLocation.framework */,
+				0FB4A656211EFC5B003DA130 /* AVFoundation.framework */,
+				0FB4A64F211EE603003DA130 /* AudioToolbox.framework */,
+				0F32214D1EF16F8600182BF0 /* SystemConfiguration.framework */,
+				0F26F37F1E16358C0005C7B4 /* CoreMotion.framework */,
+				0F8787DD1DA8FEA2007A0212 /* QuartzCore.framework */,
+				0F5B85981D86D420003EF133 /* CoreGraphics.framework */,
+				0F5B859A1D86D447003EF133 /* Foundation.framework */,
+				0F5B859C1D86D453003EF133 /* UIKit.framework */,
+				0F5B859E1D86D45C003EF133 /* SpriteKit.framework */,
+				44D9797C284C2161EA3CEB72 /* libPods-PlutoController.a */,
+				791688C1F37F8431237EF6EF /* libPods-PlutoController.a */,
+				618FFE004D59D02197FBFDB6 /* libPods-PlutoControllerTests.a */,
+				468DF6609726FFD90476A137 /* libPods-PlutoControllerUITests.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F6076E71DA76D4D001D4936 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				0F87876B1DA8C803007A0212 /* Graphs.storyboard */,
+				0F87876D1DA8C81B007A0212 /* GraphsController.h */,
+				0F87876E1DA8C81B007A0212 /* GraphsController.m */,
+				0F8727A01DAD17BE00D124EB /* AcceleroController.h */,
+				0F8727A11DAD17BE00D124EB /* AcceleroController.m */,
+				0F8727A31DAD17CD00D124EB /* GyroController.h */,
+				0F8727A41DAD17CD00D124EB /* GyroController.m */,
+				0F8727A61DAD17DC00D124EB /* MagnetoController.h */,
+				0F8727A71DAD17DC00D124EB /* MagnetoController.m */,
+				0F8727A91DAD17E700D124EB /* BaroController.h */,
+				0F8727AA1DAD17E700D124EB /* BaroController.m */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		0F6076E81DA77B23001D4936 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCBBAE1DBF4C8A001ABD48 /* AccelerometerGraph */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		0F7693BB2165F1A5006AE025 /* LeweiLib */ = {
+			isa = PBXGroup;
+			children = (
+				0F7693BF21660E19006AE025 /* LWCommon.h */,
+				0F7693BE21660E19006AE025 /* LWManage.h */,
+				0F7693BC2165F28B006AE025 /* libLW93Control.a */,
+			);
+			path = LeweiLib;
+			sourceTree = "<group>";
+		};
+		0F8310E31D78560900D5E5E5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0F8310E51D78566500D5E5E5 /* MultiWi230.m */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0F8310E41D78562A00D5E5E5 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				0FFF2AFC1D7867DC00CEB132 /* WiFiCommunication.m */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		0F935CFD20D263E800FFED7F /* PlutoController */ = {
+			isa = PBXGroup;
+			children = (
+				0F935CFE20D263E800FFED7F /* View */,
+			);
+			name = PlutoController;
+			sourceTree = "<group>";
+		};
+		0F935CFE20D263E800FFED7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F935CFF20D263E800FFED7F /* MBProgressHUD-master */,
+				0F935D0320D263E800FFED7F /* GraphView */,
+				0F935D0520D263E800FFED7F /* JoystickNode */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F935CFF20D263E800FFED7F /* MBProgressHUD-master */ = {
+			isa = PBXGroup;
+			children = (
+				0F935D0020D263E800FFED7F /* Demo */,
+			);
+			path = "MBProgressHUD-master";
+			sourceTree = "<group>";
+		};
+		0F935D0020D263E800FFED7F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0F935D0120D263E800FFED7F /* HudDemo */,
+				0F935D0220D263E800FFED7F /* HudDemoTV */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		0F935D0120D263E800FFED7F /* HudDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HudDemo;
+			sourceTree = "<group>";
+		};
+		0F935D0220D263E800FFED7F /* HudDemoTV */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HudDemoTV;
+			sourceTree = "<group>";
+		};
+		0F935D0320D263E800FFED7F /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				0F935D0420D263E800FFED7F /* AccelerometerGraph */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		0F935D0420D263E800FFED7F /* AccelerometerGraph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AccelerometerGraph;
+			sourceTree = "<group>";
+		};
+		0F935D0520D263E800FFED7F /* JoystickNode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JoystickNode;
+			sourceTree = "<group>";
+		};
+		0F93F3E41E26376B00438CEA /* JoystickNode */ = {
+			isa = PBXGroup;
+			children = (
+				0F93F3E51E26376B00438CEA /* bullet.png */,
+				0F93F3E61E26376B00438CEA /* InfoPlist.strings */,
+				0F93F3E91E26376B00438CEA /* inner.png */,
+				0F93F3EB1E26376B00438CEA /* JoystickNode-Prefix.pch */,
+				0F93F3EE1E26376B00438CEA /* KAZ_DynamicControllerScene.h */,
+				0F93F3EF1E26376B00438CEA /* KAZ_DynamicControllerScene.m */,
+				0F93F3F01E26376B00438CEA /* KAZ_FixedControllerScene.h */,
+				0F93F3F11E26376B00438CEA /* KAZ_FixedControllerScene.m */,
+				0F93F3F21E26376B00438CEA /* KAZ_JoystickNode.h */,
+				0F93F3F31E26376B00438CEA /* KAZ_JoystickNode.m */,
+				0F7CB4E021218F3A00CE3CB3 /* LeftJoystickScene.h */,
+				0F7CB4E121218F3A00CE3CB3 /* LeftJoystickScene.m */,
+				0F7CB4E32121A67300CE3CB3 /* RightJoystickScene.h */,
+				0F7CB4E42121A67300CE3CB3 /* RightJoystickScene.m */,
+			);
+			path = JoystickNode;
+			sourceTree = "<group>";
+		};
+		0F9BB4DB1D9E372C00D376FD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCBC541DBF6575001ABD48 /* Images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		0FB4A651211EF882003DA130 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0FB4A652211EFC2C003DA130 /* error_sound.wav */,
+				0FB4A653211EFC2C003DA130 /* success_sound.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0FBCBBAE1DBF4C8A001ABD48 /* AccelerometerGraph */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCBBAF1DBF4C8A001ABD48 /* AccelerometerFilter.h */,
+				0FBCBBB01DBF4C8A001ABD48 /* AccelerometerFilter.m */,
+				0FBCBBB11DBF4C8A001ABD48 /* AcceloGraphView.h */,
+				0FBCBBB21DBF4C8A001ABD48 /* AceeloGraphView.m */,
+				0FBCBBB51DBF4C8A001ABD48 /* BaroGraphView.h */,
+				0FBCBBB61DBF4C8A001ABD48 /* BaroGraphView.m */,
+				0FBCBBB71DBF4C8A001ABD48 /* Localizable.strings */,
+				0FBCBBBD1DBF4C8A001ABD48 /* GyroGraphView.h */,
+				0FBCBBBE1DBF4C8A001ABD48 /* GyroGraphView.m */,
+				0FBCBBBF1DBF4C8A001ABD48 /* images */,
+				0FBCBBC41DBF4C8A001ABD48 /* MagnetoGraphView.h */,
+				0FBCBBC51DBF4C8A001ABD48 /* MagnetoGraphView.m */,
+				0FBCBBC71DBF4C8A001ABD48 /* MainViewController.h */,
+				0FBCBBC81DBF4C8A001ABD48 /* MainViewController.m */,
+				0FBCBBC91DBF4C8A001ABD48 /* Prefix.pch */,
+			);
+			path = AccelerometerGraph;
+			sourceTree = "<group>";
+		};
+		0FBCBBBF1DBF4C8A001ABD48 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCBBC01DBF4C8A001ABD48 /* Default-568h@2x.png */,
+				0FBCBBC11DBF4C8A001ABD48 /* Default.png */,
+				0FBCBBC21DBF4C8A001ABD48 /* Default@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0FBCBBD91DBF5085001ABD48 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				0F9345E220A9CDED004D1AF0 /* CustomSlider.h */,
+				0FBCBBDA1DBF5085001ABD48 /* UIView+Toast.h */,
+				0FBCBBDB1DBF5085001ABD48 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		0FBCBBDD1DBF509B001ABD48 /* MBProgressHUD-master */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCBC011DBF509B001ABD48 /* MBProgressHUD-Prefix.pch */,
+				0FBCBC021DBF509B001ABD48 /* MBProgressHUD.h */,
+				0FBCBC031DBF509B001ABD48 /* MBProgressHUD.m */,
+			);
+			path = "MBProgressHUD-master";
+			sourceTree = "<group>";
+		};
+		0FBCBC511DBF50D6001ABD48 /* DronaMSPKit */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCBC521DBF50D6001ABD48 /* MultiWi230.h */,
+			);
+			path = DronaMSPKit;
+			sourceTree = "<group>";
+		};
+		0FBCBC541DBF6575001ABD48 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				360BEF6F2A867A1600B00C2E /* ic_argos_splash.png */,
+				0FAA387620E11D6E00C2ACAD /* ic_slash_pluto_logo.png */,
+				0FBCBC671DBF65DC001ABD48 /* settings.png */,
+				0FFFC4DA1F13AFC700814669 /* flight_time_icon.png */,
+				0FBCBC611DBF65C5001ABD48 /* joystick_base.png */,
+				0FBCBC621DBF65C5001ABD48 /* joystick_top.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0FD534841D8827D700041277 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0FD534851D8827E400041277 /* Config.h */,
+				0F91AC5B1DB3A418000E9879 /* Config.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0FFEA98B1DA2303500BA14B8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0FFEA9AC1DA26D0E00BA14B8 /* FirmwareFlasherController.h */,
+				0FFEA9AD1DA26D0E00BA14B8 /* FirmwareFlasherController.m */,
+				0F6352661F00F755003C8398 /* PIDController.h */,
+				0F6352671F00F755003C8398 /* PIDController.m */,
+				0FC28D3420A05E98009CD101 /* TabBarController.m */,
+				0FC28D3620A05EB1009CD101 /* TabBarController.h */,
+				0FF1269C20A17FBB00874A49 /* DroneViewController.m */,
+				0FF1269E20A17FD900874A49 /* DroneViewController.h */,
+				0FF1269F20A195CE00874A49 /* SettingsViewController.m */,
+				0FF126A120A195E200874A49 /* SettingsViewController.h */,
+				0FF126A220A1EAA700874A49 /* ControlsViewController.m */,
+				0FF126A420A1EB4100874A49 /* ControlsViewController.h */,
+				0FF126A520A1EC7C00874A49 /* ProfileViewController.m */,
+				0FF126A720A1ECAA00874A49 /* ProfileViewController.h */,
+				0FA7D6B820ADAE1E00458B67 /* AppSettingsController.h */,
+				0FA7D6B920ADAE1E00458B67 /* AppSettingsController.m */,
+				0FAE52C120AEAAFF00368FC9 /* DevSettingsController.h */,
+				0FAE52C220AEAAFF00368FC9 /* DevSettingsController.m */,
+				0F8B023A2149261F00BFDD0E /* FirmwareFlasher.h */,
+				0F8B023B2149261F00BFDD0E /* FirmwareFlasher.m */,
+				0FF7174F21A6D64600014917 /* ChangeWifiController.h */,
+				0FF7175021A6D64600014917 /* ChangeWifiController.m */,
+				0FC9ECFC21AE90E600BCEE16 /* ChangePwdController.h */,
+				0FC9ECFD21AE90E600BCEE16 /* ChangePwdController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0FFF2AFA1D78638200CEB132 /* DronaCommunicationKit */ = {
+			isa = PBXGroup;
+			children = (
+				0FFF2AFB1D7863CD00CEB132 /* Communication.h */,
+			);
+			path = DronaCommunicationKit;
+			sourceTree = "<group>";
+		};
+		301A7B62A747F631531F32CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F708B40CB86ED330898638C /* Pods-PlutoController.debug.xcconfig */,
+				5CFA5E88B2C8E2C1DDD8E964 /* Pods-PlutoController.release.xcconfig */,
+				34A5F7868C16E5F0B94FA2CA /* Pods-PlutoControllerTests.debug.xcconfig */,
+				BA22CC17EF614ABEA177A816 /* Pods-PlutoControllerTests.release.xcconfig */,
+				2516B1998F4A4AEE66BFECB2 /* Pods-PlutoControllerUITests.debug.xcconfig */,
+				B78FE8725478862F2FEFF4F8 /* Pods-PlutoControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F4A2F3A1D77F96100E5903D /* Argos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4A2F681D77F96100E5903D /* Build configuration list for PBXNativeTarget "Argos" */;
+			buildPhases = (
+				0AE7B3914973BA09C7E0BB2B /* [CP] Check Pods Manifest.lock */,
+				0F4A2F371D77F96100E5903D /* Sources */,
+				0F4A2F381D77F96100E5903D /* Frameworks */,
+				0F4A2F391D77F96100E5903D /* Resources */,
+				0F8787841DA8CB9D007A0212 /* Embed Frameworks */,
+				0F149A1F20D5354100CA69F3 /* ShellScript */,
+				0F228053214262B400236D11 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Argos;
+			productName = PlutoController;
+			productReference = 0F4A2F3B1D77F96100E5903D /* Argos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F4A2F531D77F96100E5903D /* ArgosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4A2F6B1D77F96100E5903D /* Build configuration list for PBXNativeTarget "ArgosTests" */;
+			buildPhases = (
+				D45E3C0DD2DA11E521C124E4 /* [CP] Check Pods Manifest.lock */,
+				0F4A2F501D77F96100E5903D /* Sources */,
+				0F4A2F511D77F96100E5903D /* Frameworks */,
+				0F4A2F521D77F96100E5903D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F4A2F561D77F96100E5903D /* PBXTargetDependency */,
+			);
+			name = ArgosTests;
+			productName = PlutoControllerTests;
+			productReference = 0F4A2F541D77F96100E5903D /* ArgosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F4A2F5E1D77F96100E5903D /* ArgosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4A2F6E1D77F96100E5903D /* Build configuration list for PBXNativeTarget "ArgosUITests" */;
+			buildPhases = (
+				5E6634A984311BAE502E632C /* [CP] Check Pods Manifest.lock */,
+				0F4A2F5B1D77F96100E5903D /* Sources */,
+				0F4A2F5C1D77F96100E5903D /* Frameworks */,
+				0F4A2F5D1D77F96100E5903D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F4A2F611D77F96100E5903D /* PBXTargetDependency */,
+			);
+			name = ArgosUITests;
+			productName = PlutoControllerUITests;
+			productReference = 0F4A2F5F1D77F96100E5903D /* ArgosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F4A2F331D77F96100E5903D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "Drona Aviation";
+				TargetAttributes = {
+					0F4A2F3A1D77F96100E5903D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E6AG68K6SR;
+						LastSwiftMigration = "";
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					0F4A2F531D77F96100E5903D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F4A2F3A1D77F96100E5903D;
+					};
+					0F4A2F5E1D77F96100E5903D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F4A2F3A1D77F96100E5903D;
+					};
+				};
+			};
+			buildConfigurationList = 0F4A2F361D77F96100E5903D /* Build configuration list for PBXProject "Argos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F4A2F321D77F96100E5903D;
+			productRefGroup = 0F4A2F3C1D77F96100E5903D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F4A2F3A1D77F96100E5903D /* Argos */,
+				0F4A2F531D77F96100E5903D /* ArgosTests */,
+				0F4A2F5E1D77F96100E5903D /* ArgosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F4A2F391D77F96100E5903D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEEFD1020EB5721000E129F /* AccCalibrationDialogView.xib in Resources */,
+				0FBCBC631DBF65C5001ABD48 /* joystick_base.png in Resources */,
+				0FFFC4DB1F13AFC700814669 /* flight_time_icon.png in Resources */,
+				0F232DD6220AD6C100244F5A /* FirmwareDownloadDialog.xib in Resources */,
+				0F93F3F91E26376B00438CEA /* InfoPlist.strings in Resources */,
+				0FBCBBD31DBF4C8A001ABD48 /* Default.png in Resources */,
+				0FBCBC641DBF65C5001ABD48 /* joystick_top.png in Resources */,
+				0F93F3FB1E26376B00438CEA /* inner.png in Resources */,
+				0F69F58A21537EFF00CBADEA /* FirmwareProgressDialog.xib in Resources */,
+				0F0A0EBA1E24B8FA00711A48 /* Main.storyboard in Resources */,
+				0F25E758210336A00096B0A6 /* AuxOptionDialog.xib in Resources */,
+				0F4A2F4E1D77F96100E5903D /* LaunchScreen.storyboard in Resources */,
+				360BEF702A867A1600B00C2E /* ic_argos_splash.png in Resources */,
+				0F93F3F81E26376B00438CEA /* bullet.png in Resources */,
+				36F43C322A86377A00585CCF /* GoogleService-Info.plist in Resources */,
+				0FBCBBD21DBF4C8A001ABD48 /* Default-568h@2x.png in Resources */,
+				0F7F62FE21AFC7D5007DCFD1 /* RecoverPwdDialog.xib in Resources */,
+				0FB4A655211EFC2C003DA130 /* success_sound.wav in Resources */,
+				0F90F1F2210F2730007F8D1B /* EditProfileDialogView.xib in Resources */,
+				0F84A72620F5D20000BD423A /* MagCalibrationDialogView.xib in Resources */,
+				0FBCBBCE1DBF4C8A001ABD48 /* Localizable.strings in Resources */,
+				0FAA387720E11D6E00C2ACAD /* ic_slash_pluto_logo.png in Resources */,
+				0FBCBC681DBF65DC001ABD48 /* settings.png in Resources */,
+				0F4A2F4B1D77F96100E5903D /* Assets.xcassets in Resources */,
+				0FBCBBD41DBF4C8A001ABD48 /* Default@2x.png in Resources */,
+				0F87876C1DA8C803007A0212 /* Graphs.storyboard in Resources */,
+				0FB4A654211EFC2C003DA130 /* error_sound.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4A2F521D77F96100E5903D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4A2F5D1D77F96100E5903D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AE7B3914973BA09C7E0BB2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlutoController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F149A1F20D5354100CA69F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		5E6634A984311BAE502E632C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlutoControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D45E3C0DD2DA11E521C124E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlutoControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4A2F371D77F96100E5903D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAE677022C773E100988394 /* FirmwareFlasher.h in Sources */,
+				0F4942DC22C73EA800E60287 /* Config.h in Sources */,
+				0F20A1EA21109F4D00F4AA6C /* User.m in Sources */,
+				0F90F1F5210F2DA7007F8D1B /* EditProfileDialogUIView.m in Sources */,
+				0F69F59021539E9800CBADEA /* FirmwareProgressDialogView.m in Sources */,
+				0FBCBC531DBF61C7001ABD48 /* WiFiCommunication.m in Sources */,
+				0F9A6D4A2111927D008783F7 /* UserSettings.m in Sources */,
+				0F7F630121AFCAA6007DCFD1 /* RecoverPwdDialogView.m in Sources */,
+				0F7CB4E52121A67300CE3CB3 /* RightJoystickScene.m in Sources */,
+				0FBCBBDC1DBF5085001ABD48 /* UIView+Toast.m in Sources */,
+				0FF126A620A1EC7C00874A49 /* ProfileViewController.m in Sources */,
+				0F0243F620EB86C0004FE347 /* CustomProgressView.m in Sources */,
+				0F91AC601DB3AC1A000E9879 /* BaroController.m in Sources */,
+				0F91AC5F1DB3AC15000E9879 /* MagnetoController.m in Sources */,
+				0F91AC5E1DB3AC0E000E9879 /* GyroController.m in Sources */,
+				0FF126A020A195CE00874A49 /* SettingsViewController.m in Sources */,
+				0F93F4001E26376B00438CEA /* KAZ_JoystickNode.m in Sources */,
+				0F91AC5D1DB3AC0A000E9879 /* AcceleroController.m in Sources */,
+				0FBCBBCD1DBF4C8A001ABD48 /* BaroGraphView.m in Sources */,
+				0F25E75B210339D90096B0A6 /* AuxDialogOptionUIView.m in Sources */,
+				0F4A2F461D77F96100E5903D /* ViewController.m in Sources */,
+				0FAE52C320AEAAFF00368FC9 /* DevSettingsController.m in Sources */,
+				0F84A72920F5E41D00BD423A /* MagCalibrationDialogUIView.m in Sources */,
+				0FBCBC1E1DBF509B001ABD48 /* MBProgressHUD.m in Sources */,
+				0FC28D3520A05E98009CD101 /* TabBarController.m in Sources */,
+				0FEEFD1320EB5D67000E129F /* AccCalibrationDialogUIView.m in Sources */,
+				0FBCBBD61DBF4C8A001ABD48 /* MagnetoGraphView.m in Sources */,
+				0F91AC5C1DB3A418000E9879 /* Config.m in Sources */,
+				0FA7D6BA20ADAE1E00458B67 /* AppSettingsController.m in Sources */,
+				0FF1269D20A17FBB00874A49 /* DroneViewController.m in Sources */,
+				0F766DF0211318BD0036E403 /* LoginViewController.m in Sources */,
+				0FD534821D87FEF900041277 /* RCSignals.m in Sources */,
+				0FC9ECFE21AE90E600BCEE16 /* ChangePwdController.m in Sources */,
+				0F8B023C2149261F00BFDD0E /* FirmwareFlasher.m in Sources */,
+				0F0DFF121DAB6463003154D0 /* File.swift in Sources */,
+				0FBCBBCB1DBF4C8A001ABD48 /* AceeloGraphView.m in Sources */,
+				0F4A2F431D77F96100E5903D /* AppDelegate.m in Sources */,
+				0F9A6D4D21119AD0008783F7 /* PlutoWifi.m in Sources */,
+				0F9A6D5021119B36008783F7 /* Gaming.m in Sources */,
+				0FFEA9AE1DA26D0E00BA14B8 /* FirmwareFlasherController.m in Sources */,
+				0FBCBBCA1DBF4C8A001ABD48 /* AccelerometerFilter.m in Sources */,
+				0F9B0CCF1F4B012E000CCE38 /* HexParser.m in Sources */,
+				0F9345E420A9CDED004D1AF0 /* CustomSlider.m in Sources */,
+				0F93F3FF1E26376B00438CEA /* KAZ_FixedControllerScene.m in Sources */,
+				0F6352681F00F755003C8398 /* PIDController.m in Sources */,
+				0F93F3FE1E26376B00438CEA /* KAZ_DynamicControllerScene.m in Sources */,
+				0F4A2F401D77F96100E5903D /* main.m in Sources */,
+				0F8310E61D78566500D5E5E5 /* MultiWi230.m in Sources */,
+				0F3D8F8A1F4B31A500066AFA /* BlockObjectList.m in Sources */,
+				0F7CB4E221218F3A00CE3CB3 /* LeftJoystickScene.m in Sources */,
+				0F87876F1DA8C81B007A0212 /* GraphsController.m in Sources */,
+				0FBCBBD11DBF4C8A001ABD48 /* GyroGraphView.m in Sources */,
+				0F9A6D5321119D0E008783F7 /* GameController.m in Sources */,
+				0FF126A320A1EAA700874A49 /* ControlsViewController.m in Sources */,
+				0F232DD2220AD65800244F5A /* FirmwareDownloadDialogView.m in Sources */,
+				0F32214C1EF14A3300182BF0 /* Util.m in Sources */,
+				0FF7175121A6D64600014917 /* ChangeWifiController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4A2F501D77F96100E5903D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4A2F5B1D77F96100E5903D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F4A2F561D77F96100E5903D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F4A2F3A1D77F96100E5903D /* Argos */;
+			targetProxy = 0F4A2F551D77F96100E5903D /* PBXContainerItemProxy */;
+		};
+		0F4A2F611D77F96100E5903D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F4A2F3A1D77F96100E5903D /* Argos */;
+			targetProxy = 0F4A2F601D77F96100E5903D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F0A0EB81E24B8FA00711A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0A0EB91E24B8FA00711A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F4A2F4C1D77F96100E5903D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4A2F4D1D77F96100E5903D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0F93F3E61E26376B00438CEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F93F3E71E26376B00438CEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FBCBBB71DBF4C8A001ABD48 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FBCBBB81DBF4C8A001ABD48 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F4A2F661D77F96100E5903D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F4A2F671D77F96100E5903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F4A2F691D77F96100E5903D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F708B40CB86ED330898638C /* Pods-PlutoController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PlutoController/PlutoController.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Drona Aviation Private Limited (E6AG68K6SR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6AG68K6SR;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+				);
+				INFOPLIST_FILE = PlutoController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlutoController/LeweiLib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dronaaviation.ravenone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlutoController/PlutoController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		0F4A2F6A1D77F96100E5903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFA5E88B2C8E2C1DDD8E964 /* Pods-PlutoController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PlutoController/PlutoController.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6AG68K6SR;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+				);
+				INFOPLIST_FILE = PlutoController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlutoController/LeweiLib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dronaaviation.ravenone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlutoController/PlutoController-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				"VALID_ARCHS[arch=*]" = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		0F4A2F6C1D77F96100E5903D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A5F7868C16E5F0B94FA2CA /* Pods-PlutoControllerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlutoControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drona.PlutoControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Argos.app/Argos";
+			};
+			name = Debug;
+		};
+		0F4A2F6D1D77F96100E5903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA22CC17EF614ABEA177A816 /* Pods-PlutoControllerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlutoControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drona.PlutoControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Argos.app/Argos";
+			};
+			name = Release;
+		};
+		0F4A2F6F1D77F96100E5903D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2516B1998F4A4AEE66BFECB2 /* Pods-PlutoControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PlutoControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drona.PlutoControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlutoController;
+			};
+			name = Debug;
+		};
+		0F4A2F701D77F96100E5903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78FE8725478862F2FEFF4F8 /* Pods-PlutoControllerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PlutoControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drona.PlutoControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlutoController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4A2F361D77F96100E5903D /* Build configuration list for PBXProject "Argos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4A2F661D77F96100E5903D /* Debug */,
+				0F4A2F671D77F96100E5903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4A2F681D77F96100E5903D /* Build configuration list for PBXNativeTarget "Argos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4A2F691D77F96100E5903D /* Debug */,
+				0F4A2F6A1D77F96100E5903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4A2F6B1D77F96100E5903D /* Build configuration list for PBXNativeTarget "ArgosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4A2F6C1D77F96100E5903D /* Debug */,
+				0F4A2F6D1D77F96100E5903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4A2F6E1D77F96100E5903D /* Build configuration list for PBXNativeTarget "ArgosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4A2F6F1D77F96100E5903D /* Debug */,
+				0F4A2F701D77F96100E5903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F4A2F331D77F96100E5903D /* Project object */;
+}

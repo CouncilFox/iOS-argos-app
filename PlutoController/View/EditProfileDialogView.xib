@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditProfileDialogUIView">
+            <connections>
+                <outlet property="btnProfilePhoto" destination="uxq-Ii-jCR" id="dfe-Id-AhC"/>
+                <outlet property="btnSavePilot" destination="hq4-2X-euC" id="VP4-IN-Rj6"/>
+                <outlet property="developerBorderView" destination="Sr0-4e-kxj" id="I7v-Xr-Vet"/>
+                <outlet property="developerCheckboxView" destination="58W-qY-Pu0" id="UY7-Q6-iak"/>
+                <outlet property="editPilotDialogView" destination="iN0-l3-epB" id="48v-Oc-7HP"/>
+                <outlet property="ivDeveloperIcon" destination="z4x-UO-92Z" id="fpS-Hb-rr4"/>
+                <outlet property="tfPilotName" destination="FeX-Fn-LKz" id="Uvt-Ar-tMZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PC8-0w-Can">
+                    <rect key="frame" x="621" y="8" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="3ew-yP-iAp"/>
+                        <constraint firstAttribute="width" constant="36" id="Nwb-fI-az2"/>
+                    </constraints>
+                    <state key="normal" image="ic_close_dialog"/>
+                    <connections>
+                        <action selector="closeEditProfileDialog:" destination="-1" eventType="touchUpInside" id="Djf-A6-GoM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxq-Ii-jCR">
+                    <rect key="frame" x="30" y="122" width="130" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="tM7-UX-7cE"/>
+                        <constraint firstAttribute="height" constant="130" id="zOV-TK-45f"/>
+                    </constraints>
+                    <state key="normal" image="ic_default_dp"/>
+                    <connections>
+                        <action selector="profilePhotoBtnClicked:" destination="-1" eventType="touchUpInside" id="9HH-CV-1eY"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FeX-Fn-LKz">
+                    <rect key="frame" x="190" y="142" width="447" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="JvZ-II-hDb"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbk-ml-xTT">
+                    <rect key="frame" x="217" y="182.5" width="119.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hq4-2X-euC">
+                    <rect key="frame" x="184" y="218" width="100" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="sxS-fa-hIe"/>
+                        <constraint firstAttribute="height" constant="40" id="xQc-uz-eeM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <state key="normal" title="Save">
+                        <color key="titleColor" red="0.82352941180000006" green="0.066666666669999999" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="saveBtnClicked:" destination="-1" eventType="touchUpInside" id="5J5-4Y-UOq"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_take_photo_profile" translatesAutoresizingMaskIntoConstraints="NO" id="MfB-v1-13B">
+                    <rect key="frame" x="110" y="208.5" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="V9j-jh-IOG"/>
+                        <constraint firstAttribute="width" constant="44" id="pPj-cb-fpm"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sr0-4e-kxj">
+                    <rect key="frame" x="184" y="179" width="26" height="26"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="LKL-cq-atS"/>
+                        <constraint firstAttribute="width" constant="26" id="VuO-Ce-sza"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58W-qY-Pu0" customClass="UIButton">
+                    <rect key="frame" x="188" y="183" width="18" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="5NM-YT-cXf"/>
+                        <constraint firstAttribute="width" constant="18" id="IhE-qX-dQI"/>
+                    </constraints>
+                    <connections>
+                        <action selector="isDeveloperViewClicked:" destination="-1" eventType="touchUpInside" id="rLh-4Q-nad"/>
+                    </connections>
+                </view>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_developer_user" translatesAutoresizingMaskIntoConstraints="NO" id="z4x-UO-92Z">
+                    <rect key="frame" x="26" y="142" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="XeZ-2d-s17"/>
+                        <constraint firstAttribute="width" constant="34" id="nNV-LI-V5f"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.098039215690000001" green="0.1019607843" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FeX-Fn-LKz" firstAttribute="leading" secondItem="uxq-Ii-jCR" secondAttribute="trailing" constant="30" id="3X5-XK-8w0"/>
+                <constraint firstItem="uxq-Ii-jCR" firstAttribute="top" secondItem="FeX-Fn-LKz" secondAttribute="top" constant="-20" id="3dM-Zt-wbE"/>
+                <constraint firstItem="Sr0-4e-kxj" firstAttribute="leading" secondItem="MfB-v1-13B" secondAttribute="trailing" constant="30" id="BOp-Wa-30p"/>
+                <constraint firstItem="Sr0-4e-kxj" firstAttribute="centerX" secondItem="58W-qY-Pu0" secondAttribute="centerX" id="FMs-ZK-a0N"/>
+                <constraint firstItem="PC8-0w-Can" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="Kl4-HX-vvK"/>
+                <constraint firstItem="uxq-Ii-jCR" firstAttribute="top" secondItem="z4x-UO-92Z" secondAttribute="top" constant="-20" id="La6-iH-w1O"/>
+                <constraint firstItem="uxq-Ii-jCR" firstAttribute="leading" secondItem="z4x-UO-92Z" secondAttribute="trailing" constant="-30" id="Ltw-l6-rPp"/>
+                <constraint firstItem="Sr0-4e-kxj" firstAttribute="centerY" secondItem="58W-qY-Pu0" secondAttribute="centerY" id="Myd-tv-oCt"/>
+                <constraint firstItem="hq4-2X-euC" firstAttribute="leading" secondItem="uxq-Ii-jCR" secondAttribute="trailing" constant="24" id="PbL-NB-6eK"/>
+                <constraint firstItem="uxq-Ii-jCR" firstAttribute="baseline" secondItem="MfB-v1-13B" secondAttribute="baseline" id="T17-yR-42T"/>
+                <constraint firstItem="uxq-Ii-jCR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="Tij-RB-dBa"/>
+                <constraint firstItem="58W-qY-Pu0" firstAttribute="centerY" secondItem="dbk-ml-xTT" secondAttribute="centerY" id="fF4-2g-7uT"/>
+                <constraint firstItem="MfB-v1-13B" firstAttribute="leading" secondItem="uxq-Ii-jCR" secondAttribute="trailing" constant="-50" id="gN3-85-Tdk"/>
+                <constraint firstItem="hq4-2X-euC" firstAttribute="top" secondItem="58W-qY-Pu0" secondAttribute="bottom" constant="17" id="i2T-6p-KpX"/>
+                <constraint firstItem="uxq-Ii-jCR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="nlR-Dy-rcd"/>
+                <constraint firstAttribute="trailing" secondItem="PC8-0w-Can" secondAttribute="trailing" constant="10" id="rMB-48-0pX"/>
+                <constraint firstItem="Sr0-4e-kxj" firstAttribute="top" secondItem="FeX-Fn-LKz" secondAttribute="bottom" constant="17" id="uaX-sU-iiI"/>
+                <constraint firstItem="dbk-ml-xTT" firstAttribute="leading" secondItem="58W-qY-Pu0" secondAttribute="trailing" constant="11" id="yhV-Hm-DCU"/>
+                <constraint firstAttribute="trailing" secondItem="FeX-Fn-LKz" secondAttribute="trailing" constant="30" id="zdu-tb-Ywk"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="124.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close_dialog" width="48" height="48"/>
+        <image name="ic_default_dp" width="132" height="132"/>
+        <image name="ic_developer_user" width="72" height="72"/>
+        <image name="ic_take_photo_profile" width="144" height="144"/>
+    </resources>
+</document>

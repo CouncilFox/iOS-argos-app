@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirmwareDownloadDialogView">
+            <connections>
+                <outlet property="btnDownload" destination="GMQ-lS-kpG" id="BJ6-r3-QWM"/>
+                <outlet property="firmwareDownloadDialogView" destination="iN0-l3-epB" id="QMe-BJ-cVt"/>
+                <outlet property="segmentControlMagis" destination="EzL-Tl-2pj" id="hMO-c7-mZF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CjD-xl-Vu9">
+                    <rect key="frame" x="625" y="8" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="2is-zy-uzV"/>
+                        <constraint firstAttribute="width" constant="36" id="plL-7v-HRU"/>
+                    </constraints>
+                    <state key="normal" image="ic_close_dialog"/>
+                    <connections>
+                        <action selector="closeFirmwareDownloadDialog:" destination="-1" eventType="touchUpInside" id="7yf-af-N4g"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EzL-Tl-2pj">
+                    <rect key="frame" x="208.5" y="154.5" width="250" height="67"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="MJ8-6a-hBr"/>
+                        <constraint firstAttribute="width" constant="250" id="iiQ-w9-6Nv"/>
+                    </constraints>
+                    <segments>
+                        <segment title="Magis-V3R"/>
+                        <segment title="Magis-X"/>
+                    </segments>
+                    <color key="tintColor" red="0.82352941176470584" green="0.066666666666666666" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose Firmware:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6F-oD-jt4">
+                    <rect key="frame" x="231" y="96" width="149" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMQ-lS-kpG">
+                    <rect key="frame" x="364.5" y="240.5" width="94" height="36"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="Kd2-Pt-08s"/>
+                        <constraint firstAttribute="width" constant="94" id="kUZ-eQ-cuS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <state key="normal" title="Download">
+                        <color key="titleColor" red="0.82352941180000006" green="0.066666666669999999" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnDownloadClicked:" destination="-1" eventType="touchUpInside" id="rf8-Tw-Vlk"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(Support: Pluto)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7w-rQ-Hn6">
+                    <rect key="frame" x="240" y="110" width="67" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(Support: PlutoX)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vg7-9g-6Fu">
+                    <rect key="frame" x="366" y="97" width="106" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.098039215686274508" green="0.10196078431372549" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EzL-Tl-2pj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="6Tc-gs-I0F"/>
+                <constraint firstItem="GMQ-lS-kpG" firstAttribute="trailing" secondItem="EzL-Tl-2pj" secondAttribute="trailing" id="BFo-SP-5nA"/>
+                <constraint firstItem="o7w-rQ-Hn6" firstAttribute="bottom" secondItem="EzL-Tl-2pj" secondAttribute="bottom" constant="-8" id="IBr-gO-Zsu"/>
+                <constraint firstItem="M6F-oD-jt4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LCd-wV-uES"/>
+                <constraint firstItem="vg7-9g-6Fu" firstAttribute="bottom" secondItem="EzL-Tl-2pj" secondAttribute="bottom" constant="-8" id="VDy-MK-ZwU"/>
+                <constraint firstItem="M6F-oD-jt4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="Xnj-qr-zhG"/>
+                <constraint firstItem="CjD-xl-Vu9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="bvk-TE-gHi"/>
+                <constraint firstAttribute="trailing" secondItem="CjD-xl-Vu9" secondAttribute="trailing" constant="6" id="emi-Ku-qpz"/>
+                <constraint firstItem="GMQ-lS-kpG" firstAttribute="top" secondItem="EzL-Tl-2pj" secondAttribute="bottom" constant="20" id="hYY-z2-8cg"/>
+                <constraint firstItem="vg7-9g-6Fu" firstAttribute="trailing" secondItem="EzL-Tl-2pj" secondAttribute="trailing" constant="-10" id="jVM-Hb-yb3"/>
+                <constraint firstItem="o7w-rQ-Hn6" firstAttribute="leading" secondItem="EzL-Tl-2pj" secondAttribute="leading" constant="13" id="yIt-Gh-zjQ"/>
+                <constraint firstItem="EzL-Tl-2pj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yyF-Bo-hXe"/>
+            </constraints>
+            <point key="canvasLocation" x="77.811094452773617" y="188"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close_dialog" width="96" height="96"/>
+    </resources>
+</document>

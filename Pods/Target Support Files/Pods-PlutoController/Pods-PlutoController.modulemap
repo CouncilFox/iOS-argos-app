@@ -1,0 +1,6 @@
+module Pods_PlutoController {
+  umbrella header "Pods-PlutoController-umbrella.h"
+
+  export *
+  module * { export * }
+}
