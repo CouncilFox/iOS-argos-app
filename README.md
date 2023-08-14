@@ -1,6 +1,3 @@
-Certainly! Here's the combined markdown content for setting up Git Large File Storage (LFS) in your project, based on the instructions I provided earlier:
-
-````markdown
 # Working with Git Large File Storage (LFS)
 
 Git LFS is a Git extension that improves handling of large files by replacing them with text pointers inside Git while storing the file contents on a remote server. Below are the steps to set up and use Git LFS in your project.
@@ -14,7 +11,6 @@ First, you'll need to install Git LFS. Follow these steps:
    ```bash
    git lfs install
    ```
-````
 
 ## Tracking Large Files
 
